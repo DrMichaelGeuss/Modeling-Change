@@ -1,0 +1,14 @@
+Package: CuspCatastrophe
+Type: Package
+Title: Cusp Catastrophe (Shiny) Interactive Topological and Dynamical Systems Tool
+Version: 0.2.0
+Authors@R: person("Michael", "Geuss", email = "mgeuss@bowiestate.edu", role = c("aut", "cre"))
+Description: A Shiny app for exploring cusp catastrophe topology (potential function and equilibria)
+    and a separate statistical instantiation layer via a 2D change-equation phase space (vector field).
+License: MIT
+Encoding: UTF-8
+Imports:
+    shiny,
+    bslib,
+    graphics,
+    grDevices
